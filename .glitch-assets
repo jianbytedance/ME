@@ -1,0 +1,289 @@
+{"name":"drag-in-files.svg","date":"2016-10-22T16:17:49.954Z","url":"https://cdn.hyperdev.com/drag-in-files.svg","type":"image/svg","size":7646,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/drag-in-files.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(102, 153, 205)","uuid":"adSBq97hhhpFNUna"}
+{"name":"click-me.svg","date":"2016-10-23T16:17:49.954Z","url":"https://cdn.hyperdev.com/click-me.svg","type":"image/svg","size":7116,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/click-me.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(243, 185, 186)","uuid":"adSBq97hhhpFNUnb"}
+{"name":"paste-me.svg","date":"2016-10-24T16:17:49.954Z","url":"https://cdn.hyperdev.com/paste-me.svg","type":"image/svg","size":7242,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/paste-me.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(42, 179, 185)","uuid":"adSBq97hhhpFNUnc"}
+{"uuid":"adSBq97hhhpFNUna","deleted":true}
+{"uuid":"adSBq97hhhpFNUnb","deleted":true}
+{"uuid":"adSBq97hhhpFNUnc","deleted":true}
+{"name":"Crystal1.jpg","date":"2023-04-30T22:22:08.883Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/Crystal1.jpg","type":"image/jpeg","size":61901,"imageWidth":512,"imageHeight":512,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/thumbnails%2FCrystal1.jpg","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"871IR8IVir71y7hH"}
+{"name":"color.jpg","date":"2023-04-30T22:22:17.055Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/color.jpg","type":"image/jpeg","size":95698,"imageWidth":512,"imageHeight":512,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/thumbnails%2Fcolor.jpg","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"er0BCZQU5Kl0PuRv"}
+{"name":"cystal3.jpg","date":"2023-04-30T22:22:22.415Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/cystal3.jpg","type":"image/jpeg","size":84391,"imageWidth":512,"imageHeight":512,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/thumbnails%2Fcystal3.jpg","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"Rn2AISlQF7TLYn2y"}
+{"name":"cystal2.jpg","date":"2023-04-30T22:22:28.225Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/cystal2.jpg","type":"image/jpeg","size":118273,"imageWidth":512,"imageHeight":512,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/thumbnails%2Fcystal2.jpg","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"NRoOOaIcpPn4pnW4"}
+{"name":"flooron.png","date":"2023-05-01T04:38:34.593Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png","type":"image/png","size":26226,"imageWidth":256,"imageHeight":256,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png","thumbnailWidth":256,"thumbnailHeight":256,"uuid":"f7oFFFSdqA0wIPCJ"}
+{"name":"floor.gltf","date":"2023-05-01T04:45:23.064Z","url":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/floor.gltf","type":"","size":162799,"thumbnail":"https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/thumbnails%2Ffloor.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"aTF6Drk9ARhL201x"}
+{"name":"scene.gltf","date":"2023-05-01T07:04:42.686Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/scene.gltf","type":"","size":4715,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"9DK98Jr1oHqxwNVY"}
+{"name":"DiamondOutside_baseColor.png","date":"2023-05-01T07:04:59.907Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/DiamondOutside_baseColor.png","type":"image/png","size":618,"imageWidth":2048,"imageHeight":2048,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2FDiamondOutside_baseColor.png","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"UAoIWRO4veHcBs1i"}
+{"name":"DiamondOutside_metallicRoughness.png","date":"2023-05-01T07:05:07.362Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/DiamondOutside_metallicRoughness.png","type":"image/png","size":605,"imageWidth":2048,"imageHeight":2048,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2FDiamondOutside_metallicRoughness.png","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"1nvEJ9Ove8lV9tCh"}
+{"name":"DiamondOutside_normal.png","date":"2023-05-01T07:05:12.793Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/DiamondOutside_normal.png","type":"image/png","size":605,"imageWidth":2048,"imageHeight":2048,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2FDiamondOutside_normal.png","thumbnailWidth":330,"thumbnailHeight":330,"uuid":"4iRP1IdFEjSllkXO"}
+{"uuid":"9DK98Jr1oHqxwNVY","deleted":true}
+{"name":"scene.gltf","date":"2023-05-02T00:16:20.312Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/scene.gltf","type":"","size":4715,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"lb8C4n0gQhDUBOzM"}
+{"uuid":"aTF6Drk9ARhL201x","deleted":true}
+{"uuid":"lb8C4n0gQhDUBOzM","deleted":true}
+{"name":"scene.gltf","date":"2023-05-02T00:17:12.527Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/scene.gltf","type":"","size":4715,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"jr006op6bRUWX14T"}
+{"name":"tv.png","date":"2023-05-02T00:30:21.720Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/tv.png","type":"image/png","size":7730,"imageWidth":256,"imageHeight":256,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/tv.png","thumbnailWidth":256,"thumbnailHeight":256,"uuid":"q0zMlVNCY952NMrG"}
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 506,
+      "max": [
+        1.0,
+        0.6169670224189758,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.6169670224189758,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6072,
+      "componentType": 5126,
+      "count": 506,
+      "max": [
+        0.9177590012550354,
+        1.0,
+        0.9177590012550354
+      ],
+      "min": [
+        -0.9177584052085876,
+        -0.7451509237289429,
+        -0.9177590012550354
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 506,
+      "max": [
+        0.8878823518753052,
+        0.9070055484771729,
+        0.9701598882675171,
+        1.0
+      ],
+      "min": [
+        -0.8527196049690247,
+        -0.9066330790519714,
+        0.10127174854278564,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 506,
+      "max": [
+        0.7326930165290833,
+        0.9914109706878662
+      ],
+      "min": [
+        0.08453349769115448,
+        0.06021120026707649
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 714,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Kugatsu Tsukai 3D Models Hub (https://sketchfab.com/KugatsuT)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/blue-diamond-free-giveaway-618d614891354c1f86f07845080e13e7",
+      "title": "Blue Diamond - Free Giveaway"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2856,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4048,
+      "byteOffset": 2856,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12144,
+      "byteOffset": 6904,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8096,
+      "byteOffset": 19048,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 27144,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/DiamondOutside_baseColor.png"
+    },
+    {
+      "uri": "textures/DiamondOutside_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/DiamondOutside_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "DiamondOutside",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "defaultMaterial",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-08,
+        0.999999999999999,
+        0.0,
+        0.0,
+        -0.999999999999999,
+        -4.371139006309477e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "pCone1"
+    },
+    {
+      "mesh": 0,
+      "name": "defaultMaterial"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+{"uuid":"jr006op6bRUWX14T","deleted":true}
+{"name":"scene.gltf","date":"2023-05-02T00:31:33.784Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/scene.gltf","type":"","size":4715,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"H1t4UHjJ58OB0TUK"}
+{"uuid":"H1t4UHjJ58OB0TUK","deleted":true}
+{"name":"diamond.gltf","date":"2023-05-02T00:31:33.784Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/diamond.gltf","type":"","size":4715,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.gltf","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"H1t4UHjJ58OB0TUK"}
+{"name":"scene.bin","date":"2023-05-02T02:13:45.314Z","url":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/scene.bin","type":"application/octet-stream","size":27144,"thumbnail":"https://cdn.glitch.global/2559573c-53b9-4578-9627-596953baadcb/thumbnails%2Fscene.bin","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"owdHrzL7P299son3"}

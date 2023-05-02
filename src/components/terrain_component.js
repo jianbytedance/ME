@@ -1,6 +1,6 @@
 AFRAME.registerComponent("terrain_component", {
   schema: {
-    to: { default: "2.5 2.5 2.5", type: "vec3" },
+    to: { default: "1 1 1", type: "vec3" },
   },
 
   init: function () {

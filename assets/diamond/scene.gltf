@@ -133,7 +133,7 @@
   ],
   "materials": [
     {
-      "alphaMode": "BLEND",
+      "alphaMode": "OFF",
       "doubleSided": true,
       "name": "DiamondOutside",
       "normalTexture": {

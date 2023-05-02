@@ -37,9 +37,17 @@
         />
         <a-asset-item
           id="diamond"
-          src="assets/diamond.gltf"
+          src="assets/diamond/scene.gltf"
         ></a-asset-item>
-        
+
+        <a-cubemap id="pisa">
+          <img src="https://threejs.org/examples/textures/cube/pisa/px.png" />
+          <img src="https://threejs.org/examples/textures/cube/pisa/nx.png" />
+          <img src="https://threejs.org/examples/textures/cube/pisa/py.png" />
+          <img src="https://threejs.org/examples/textures/cube/pisa/ny.png" />
+          <img src="https://threejs.org/examples/textures/cube/pisa/pz.png" />
+          <img src="https://threejs.org/examples/textures/cube/pisa/nz.png" />
+        </a-cubemap>
       </a-assets>
       <a-camera>
         <a-cursor></a-cursor>
@@ -56,15 +64,14 @@
         terrain_component
       ></a-plane>
 
-      
       <a-entity
         id="floor"
         gltf-model="#diamond"
-        material="shader:flat;src:#floor-img"
-        terrain_component
-        position="0 9 0"
-        rotation="-90 0 0"
-        scale="2 2 2"
+        position="0 1 -2"
+        rotation="0 0 0"
+        scale="1 1 1"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"
+        scale-on-mouseenter
       ></a-entity>
 
       <!--
@@ -79,8 +86,10 @@
       -->
 
       <a-sky color="#AAAAEB"></a-sky>
-      <a-light type="ambient" color="#445451"></a-light>
-      <a-light type="point" intensity="2" position="2 4 4"></a-light>
+      <a-light type="ambient" intensity="2222" color="#445451"></a-light>
+      <a-light type="directional" intensity="1111" position="2 20 20"></a-light>
+      <a-light type="point" intensity="1111" position="-2 20 -4"></a-light>
+      <a-light type="probe" intensity="2222" envmap="#pisa"></a-light>
       <a-sound
         src="https://ia800504.us.archive.org/33/items/TetrisThemeMusic/Tetris.mp3"
         autoplay="true"

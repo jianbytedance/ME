@@ -1,0 +1,91 @@
+<!--Created by Jian Zhang, Trying to evaluate webXR capability-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="src/components/terrain_component.js"></script>
+    <script src="src/components/core_animation.js"></script>
+  </head>
+  <body>
+    <a-entity
+      text="value: Hello, A-Frame!; color: #BBB"
+      position="-0.9 0.2 -3"
+      scale="1.5 2.5 1.5"
+    ></a-entity>
+    <a-scene>
+      <a-assets>
+        <img
+          id="boxTexture"
+          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/color.jpg?v=1682893337055"
+        />
+        <img
+          id="groundTexture"
+          src="https://images.unsplash.com/photo-1622061044350-339666ba9081?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvdW5kJTIwdGV4dHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+        />
+        <img
+          id="skyTexture"
+          src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg"
+        />
+        <img
+          id="diamondGroundTex"
+          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
+        />
+        <img
+          id="floor-img"
+          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
+        />
+        <a-asset-item
+          id="diamond"
+          src="assets/diamond.gltf"
+        ></a-asset-item>
+        
+      </a-assets>
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+
+      <a-plane
+        material="shader:flat;src:#floor-img"
+        position="0 0 -4"
+        rotation="-90 0 0"
+        repeat="30 30"
+        width="40"
+        height="40"
+        color="#FBC8A4"
+        terrain_component
+      ></a-plane>
+
+      
+      <a-entity
+        id="floor"
+        gltf-model="#diamond"
+        material="shader:flat;src:#floor-img"
+        terrain_component
+        position="0 9 0"
+        rotation="-90 0 0"
+        scale="2 2 2"
+      ></a-entity>
+
+      <!--
+      <a-box
+        src="#boxTexture"
+        position="0 2 -5"
+        rotation="0 45 45"
+        scale="2 2 2"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"
+        scale-on-mouseenter     
+      ></a-box>
+      -->
+
+      <a-sky color="#AAAAEB"></a-sky>
+      <a-light type="ambient" color="#445451"></a-light>
+      <a-light type="point" intensity="2" position="2 4 4"></a-light>
+      <a-sound
+        src="https://ia800504.us.archive.org/33/items/TetrisThemeMusic/Tetris.mp3"
+        autoplay="true"
+        position="-3 1 -4"
+      ></a-sound>
+    </a-scene>
+  </body>
+</html>

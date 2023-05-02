@@ -12,12 +12,12 @@ AFRAME.registerComponent("scale-on-mouseenter", {
   },
 
   tick: function (time, delta) {
-    var rotation = this.el.getAttribute("rotation");
+    //var rotation = this.el.getAttribute("rotation");
 
     // Update the rotation based on the component's schema values
     // rotation.y += 0.3;
 
     // Set the new rotation on the entity
-    this.el.setAttribute("rotation", rotation);
+    //this.el.setAttribute("rotation", rotation);
   },
 });

@@ -25,19 +25,24 @@
         />
         <img
           id="skyTexture"
-          src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg"
+          src="https://cdn.sci.esa.int/documents/33580/35361/1567215018536-ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_4000x2000.png/1cc58917-c0b0-1aca-ec41-be321c5c36d0?version=1.0&t=1567215037140"
         />
         <img
           id="diamondGroundTex"
           src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
         />
-        <img id="floor-img" src="assets/textures/cartoongrass.jpg" />
-
+        <img
+          id="floor-img"
+          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/cystal3.jpg?v=1682893342415"
+        />
         <a-asset-item
           id="diamond"
           src="assets/diamond/scene.gltf"
         ></a-asset-item>
-        <a-asset-item id="tetris" src="assets/tetris/scene.gltf"></a-asset-item>
+                <a-asset-item
+          id="tetris"
+          src="assets/tetris/scene.gltf"
+        ></a-asset-item>
 
         <a-cubemap id="pisa">
           <img src="https://threejs.org/examples/textures/cube/pisa/px.png" />
@@ -52,16 +57,6 @@
         <a-cursor></a-cursor>
       </a-camera>
 
-      <a-plane
-        material="shader:flat;src:#floor-img"
-        position="0 0 -4"
-        rotation="-90 0 0"
-        repeat="40 40"
-        width="400"
-        height="400"
-        color="#FBC8A4"
-        terrain_component
-      ></a-plane>
 
       <a-entity
         id="core"

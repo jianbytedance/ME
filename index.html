@@ -31,18 +31,13 @@
           id="diamondGroundTex"
           src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
         />
-        <img
-          id="floor-img"
-          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
-        />
+        <img id="floor-img" src="assets/textures/cartoongrass.jpg" />
+
         <a-asset-item
           id="diamond"
           src="assets/diamond/scene.gltf"
         ></a-asset-item>
-                <a-asset-item
-          id="tetris"
-          src="assets/tetris/scene.gltf"
-        ></a-asset-item>
+        <a-asset-item id="tetris" src="assets/tetris/scene.gltf"></a-asset-item>
 
         <a-cubemap id="pisa">
           <img src="https://threejs.org/examples/textures/cube/pisa/px.png" />
@@ -61,9 +56,9 @@
         material="shader:flat;src:#floor-img"
         position="0 0 -4"
         rotation="-90 0 0"
-        repeat="30 30"
-        width="40"
-        height="40"
+        repeat="40 40"
+        width="400"
+        height="400"
         color="#FBC8A4"
         terrain_component
       ></a-plane>
@@ -78,7 +73,7 @@
         scale-on-mouseenter
       ></a-entity>
 
-      <a-sky color="#AAAAEB"></a-sky>
+      <a-sky src="#skyTexture"></a-sky>
       <a-light type="ambient" color="#445451"></a-light>
       <a-light type="directional" intensity="1" position="2 20 20"></a-light>
       <a-sound

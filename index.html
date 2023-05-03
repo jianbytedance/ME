@@ -8,71 +8,32 @@
     <script src="src/components/core_animation.js"></script>
   </head>
   <body>
-    <a-entity
-      text="value: Hello, A-Frame!; color: #BBB"
-      position="-0.9 0.2 -3"
-      scale="1.5 2.5 1.5"
-    ></a-entity>
     <a-scene>
       <a-assets>
-        <img
-          id="boxTexture"
-          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/color.jpg?v=1682893337055"
-        />
-        <img
-          id="groundTexture"
-          src="https://images.unsplash.com/photo-1622061044350-339666ba9081?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvdW5kJTIwdGV4dHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
-        />
-        <img
-          id="skyTexture"
-          src="https://cdn.sci.esa.int/documents/33580/35361/1567215018536-ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_4000x2000.png/1cc58917-c0b0-1aca-ec41-be321c5c36d0?version=1.0&t=1567215037140"
-        />
-        <img
-          id="diamondGroundTex"
-          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/flooron.png?v=1682915914593"
-        />
-        <img
-          id="floor-img"
-          src="https://cdn.glitch.global/e7a6d1f6-e1a2-490e-bd88-52091683644a/cystal3.jpg?v=1682893342415"
-        />
-        <a-asset-item
-          id="diamond"
-          src="assets/diamond/scene.gltf"
-        ></a-asset-item>
-                <a-asset-item
-          id="tetris"
-          src="assets/tetris/scene.gltf"
-        ></a-asset-item>
-
-        <a-cubemap id="pisa">
-          <img src="https://threejs.org/examples/textures/cube/pisa/px.png" />
-          <img src="https://threejs.org/examples/textures/cube/pisa/nx.png" />
-          <img src="https://threejs.org/examples/textures/cube/pisa/py.png" />
-          <img src="https://threejs.org/examples/textures/cube/pisa/ny.png" />
-          <img src="https://threejs.org/examples/textures/cube/pisa/pz.png" />
-          <img src="https://threejs.org/examples/textures/cube/pisa/nz.png" />
-        </a-cubemap>
+        <img id="skyTexture" src="assets/galaxy/ESA_Gaia_DR2.jpg" />
       </a-assets>
+      <a-asset-item
+        id="spaceship"
+        src="assets/d.s.s._harbinger_battle_cruiser/scene.gltf"
+      ></a-asset-item>
       <a-camera>
         <a-cursor></a-cursor>
       </a-camera>
 
-
       <a-entity
-        id="core"
-        gltf-model="#tetris"
-        position="0 1 -2"
-        rotation="0 -90 0"
-        scale="20 20 20"
-        animation="property: object3D.position.y; to: 1.3; dir: alternate; dur: 2000; loop: true"
-        scale-on-mouseenter
+        id="spaceship"
+        gltf-model="#spaceship"
+        position="0 40 -200"
+        rotation="0 90 0"
+        scale="1 1 1"
+        animation="property: object3D.position.z; to: -2000; dir: alternate; dur: 200000; loop: false"
       ></a-entity>
 
       <a-sky src="#skyTexture"></a-sky>
       <a-light type="ambient" color="#445451"></a-light>
       <a-light type="directional" intensity="1" position="2 20 20"></a-light>
       <a-sound
-        src="https://ia800504.us.archive.org/33/items/TetrisThemeMusic/Tetris.mp3"
+        src="assets/sound/DeadSpace-TwinkleTwinkleLittleStar.mp3"
         autoplay="true"
         position="-3 1 -4"
       ></a-sound>

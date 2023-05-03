@@ -1,0 +1,7 @@
+downloaded from 
+https://cdn.sci.esa.int/documents/33580/35361/1567215018536-ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_4000x2000.png/1cc58917-c0b0-1aca-ec41-be321c5c36d0?version=1.0&t=1567215037140
+Reference： https://sci.esa.int/web/gaia/-/60196-gaia-s-sky-in-colour-equirectangular-projection
+
+Date: 25 April 2018
+Satellite: Gaia
+Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO

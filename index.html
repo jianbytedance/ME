@@ -16,8 +16,7 @@
         id="spaceship"
         src="assets/spaceship/scene.gltf"
       ></a-asset-item>
-      <a-camera>
-        <a-cursor></a-cursor>
+      <a-camera far="10000.0" near="0.2">
       </a-camera>
       
       <a-entity
@@ -33,7 +32,6 @@
       <a-sky src="#skyTexture"></a-sky>
       <a-light type="ambient" color="#445451"></a-light>
       <a-light type="directional" intensity="1" position="2 20 20"></a-light>
-      <a-camera  look-controls wasd-controls position="0 0 0" far="10" data-aframe-default-camera></a-camera>
       <a-sound
         src="assets/sound/DeadSpace-TwinkleTwinkleLittleStar.mp3"
         autoplay="true"

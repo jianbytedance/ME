@@ -14,24 +14,26 @@
       </a-assets>
       <a-asset-item
         id="spaceship"
-        src="assets/d.s.s._harbinger_battle_cruiser/scene.gltf"
+        src="assets/spaceship/scene.gltf"
       ></a-asset-item>
       <a-camera>
         <a-cursor></a-cursor>
       </a-camera>
-
+      
       <a-entity
         id="spaceship"
         gltf-model="#spaceship"
-        position="0 -100 -200"
-        rotation="0 90 0"
-        scale="2 2 2"
-        animation="property: object3D.position.z; to: -2000; dir: alternate; dur: 200000; loop: false"
+        position="10 -30 50"
+        rotation="0 0 0"
+        scale="50 50 50"
+        animation="property: object3D.position.z; to: -500; dir: alternate; dur: 200000; loop: false"
+
       ></a-entity>
 
       <a-sky src="#skyTexture"></a-sky>
       <a-light type="ambient" color="#445451"></a-light>
       <a-light type="directional" intensity="1" position="2 20 20"></a-light>
+      <a-camera  look-controls wasd-controls position="0 0 0" far="10" data-aframe-default-camera></a-camera>
       <a-sound
         src="assets/sound/DeadSpace-TwinkleTwinkleLittleStar.mp3"
         autoplay="true"
